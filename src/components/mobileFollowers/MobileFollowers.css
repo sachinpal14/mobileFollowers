@@ -1,0 +1,305 @@
+/* Main Container */
+.mobile-followers-container {
+  width: 100%;
+  max-width: 400px;
+  height: 100vh;
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #dadada;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.first-section {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border-radius: 10px;
+  gap: 2px;
+  background-color: #fff;
+}
+
+/* Profile Header */
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.connect-button {
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.back-button {
+  font-size: 27px;
+}
+
+/* Profile Info */
+
+.profile-main {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.connections-and-collabs {
+  display: flex;
+  gap: 25px;
+
+  padding: 5px 20px;
+  align-items: center;
+}
+.connections-and-collabs h5 {
+  font-size: 28px;
+  text-align: center;
+}
+.connections-and-collabs h3 {
+  font-weight: lighter;
+  font-size: 18px;
+}
+.image-section {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.image-section img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+/* 
+   Name and Position */
+.name-and-work {
+  display: flex;
+  align-items: end;
+  gap: 5px;
+  flex-direction: column;
+}
+
+/* profile header Buttons section */
+.all-buttons {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+.single-btn {
+  background: linear-gradient(to bottom, #ffe9ed, white);
+  color: black;
+  border: 1px solid black;
+  padding: 8px 10px;
+  width: 196px;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Stats Section */
+
+/* Buttons */
+.buttons-section {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+/* About Section */
+.about-section {
+  padding: 10px;
+  background-color: white;
+
+  border-radius: 8px;
+}
+
+.about-section h3 {
+  margin-bottom: 5px;
+}
+
+/* Collabs Section */
+
+.collab-lower-part {
+  display: flex;
+  gap: 10px;
+}
+.collabs-section h3 {
+  text-align: start;
+}
+.collab-section {
+  background-color: white;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.collabratorCard {
+  padding: 2px 50px;
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.collab-image {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.collab-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.collabratorDetails {
+  flex-direction: column;
+  display: flex;
+  width: 100px;
+}
+
+.collabratorDetails h4 {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: start;
+}
+
+.collabratorDetails .education {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 5px; */
+}
+
+.collabratorDetails .education h6 {
+  font-weight: 300;
+  color: #726d6dea;
+}
+
+.collabratorDetails .subCollabrators {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: #514f4fea;
+}
+
+.collabratorDetails .subCollabrators h6 {
+  font-size: 7px;
+  font-weight: 100;
+  color: #828282ea;
+}
+
+.para {
+  text-align: start;
+  font-size: 14px;
+}
+
+.iconAndImage {
+  display: flex;
+  height: 90px;
+  width: 80px;
+  border-radius: 15px;
+  align-items: center;
+}
+
+.iconAndImage img {
+  height: 100%;
+  width: 80%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.paragrapgh-icon {
+  font-size: 30px;
+}
+
+/* skills section */
+
+.skills-section {
+  height: 200px;
+  position: relative;
+}
+
+.skill-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill-list .skillsMiniDiv {
+  background-color: #f3efef;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Privacy Section */
+.privacy-section {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffffad;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  backdrop-filter: blur(1px);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.lock-icon {
+  font-size: 24px;
+  padding: 7px 10px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+.lock-icon .lock {
+  font-size: 40px;
+}
+
+.privacy-text {
+  font-weight: bold;
+}
+
+.connect-text {
+  color: gray;
+  font-size: 20px;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  background: #fff;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.548),
+    inset -2px -2px 2px rgba(0, 0, 0, 0.548);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.nav-icon {
+  font-size: 30px;
+  cursor: pointer;
+}
