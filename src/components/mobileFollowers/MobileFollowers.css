@@ -1,5 +1,5 @@
 /* Main Container */
-.mobile-followers-container {
+.mobile-followers-mobile-followers-container-privacy {
   width: 100%;
   max-width: 400px;
   height: 100vh;
@@ -12,7 +12,7 @@
   flex-direction: column;
   gap: 15px;
 }
-.first-section {
+.mobile-followers-first-section-privacy {
   display: flex;
   flex-direction: column;
   padding: 5px;
@@ -22,59 +22,59 @@
 }
 
 /* Profile Header */
-.profile-header {
+.mobile-followers-profile-header-privacy {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 8px;
 }
 
-.connect-button {
+.mobile-followers-connect-button-privacy {
   border: none;
   background: none;
   font-size: 16px;
   cursor: pointer;
   font-weight: bold;
 }
-.back-button {
+.mobile-followers-back-button-privacy {
   font-size: 27px;
 }
 
 /* Profile Info */
 
-.profile-main {
+.mobile-followers-profile-main-privacy {
   padding: 10px;
   display: flex;
   justify-content: space-between;
 }
-.connections-and-collabs {
+.mobile-followers-connections-and-collabs-privacy {
   display: flex;
   gap: 25px;
 
   padding: 5px 20px;
   align-items: center;
 }
-.connections-and-collabs h5 {
+.mobile-followers-connections-and-collabs-privacy h5 {
   font-size: 28px;
   text-align: center;
 }
-.connections-and-collabs h3 {
+.mobile-followers-connections-and-collabs-privacy h3 {
   font-weight: lighter;
   font-size: 18px;
 }
-.image-section {
+.mobile-followers-image-section-privacy {
   height: 100px;
   width: 100px;
   border-radius: 50%;
 }
-.image-section img {
+.mobile-followers-image-section-privacy img {
   height: 100%;
   width: 100%;
   border-radius: 50%;
 }
 /* 
    Name and Position */
-.name-and-work {
+.mobile-followers-name-and-work-privacy {
   display: flex;
   align-items: end;
   gap: 5px;
@@ -82,13 +82,13 @@
 }
 
 /* profile header Buttons section */
-.all-buttons {
+.mobile-followers-all-buttons-privacy {
   display: flex;
   justify-content: end;
   gap: 20px;
 }
 
-.single-btn {
+.mobile-followers-single-btn-privacy {
   background: linear-gradient(to bottom, #ffe9ed, white);
   color: black;
   border: 1px solid black;
@@ -98,16 +98,16 @@
   border-radius: 5px;
   cursor: pointer;
 }
-/* Stats Section */
+ 
 
 /* Buttons */
-.buttons-section {
+.mobile-followers-buttons-section-privacy {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.btn {
+.mobile-followers-btn-privacy {
   background: #007bff;
   color: white;
   border: none;
@@ -117,52 +117,74 @@
   cursor: pointer;
 }
 
-.btn:hover {
+.mobile-followers-btn-privacy:hover {
   background: #0056b3;
 }
 
 /* About Section */
-.about-section {
+.mobile-followers-about-section-privacy {
   padding: 10px;
   background-color: white;
-
   border-radius: 8px;
+  height: 100px;
+ 
+ 
 }
 
-.about-section h3 {
-  margin-bottom: 5px;
+.mobile-followers-about-para-section-privacy {
+  overflow: auto;
+
+}
+.mobile-followers-about-para-section-privacy::-webkit-scrollbar{
+  display: none;
+}
+
+ 
+.mobile-followers-about-section-privacy h3 {
+   font-size: 20px;
+
+}
+.mobile-followers-about-para-section-privacy p{
+  font-size: 15px;
+}
+
+.mobile-followers-about-button-privacy  {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: rgb(144, 143, 143);
 }
 
 /* Collabs Section */
 
-.collab-lower-part {
+.mobile-followers-collab-lower-part-privacy {
   display: flex;
   gap: 10px;
 }
-.collabs-section h3 {
+.mobile-followers-collabs-section-privacy h3 {
   text-align: start;
 }
-.collab-section {
+.mobile-followers-collab-section-privacy {
   background-color: white;
   padding: 4px;
   border-radius: 10px;
 }
 
-.collabratorCard {
+.mobile-followers-collabratorCard-privacy {
   padding: 2px 50px;
   display: flex;
   gap: 3px;
   align-items: center;
 }
 
-.collab-image {
+.mobile-followers-collab-image-privacy {
   width: 50px;
   height: 50px;
   background-color: #fff;
   border-radius: 50%;
 }
 
-.collab-image img {
+.mobile-followers-collab-image-privacy img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -170,49 +192,49 @@
   border-radius: 50%;
 }
 
-.collabratorDetails {
+.mobile-followers-collabratorDetails-privacy {
   flex-direction: column;
   display: flex;
   width: 100px;
 }
 
-.collabratorDetails h4 {
+.mobile-followers-collabratorDetails-privacy h4 {
   font-size: 15px;
   font-weight: 500;
   text-align: start;
 }
 
-.collabratorDetails .education {
+.mobile-followers-collabratorDetails-privacy .mobile-followers-education-privacy {
   display: flex;
   align-items: center;
   justify-content: center;
   /* gap: 5px; */
 }
 
-.collabratorDetails .education h6 {
+.mobile-followers-collabratorDetails-privacy .mobile-followers-education-privacy h6 {
   font-weight: 300;
   color: #726d6dea;
 }
 
-.collabratorDetails .subCollabrators {
+.mobile-followers-collabratorDetails-privacy .mobile-followers-subCollabrators-privacy {
   display: flex;
   align-items: center;
   gap: 2px;
   color: #514f4fea;
 }
 
-.collabratorDetails .subCollabrators h6 {
+.mobile-followers-collabratorDetails-privacy .mobile-followers-subCollabrators-privacy h6 {
   font-size: 7px;
   font-weight: 100;
   color: #828282ea;
 }
 
-.para {
+.mobile-followers-para-privacy {
   text-align: start;
   font-size: 14px;
 }
 
-.iconAndImage {
+.mobile-followers-iconAndImage-privacy {
   display: flex;
   height: 90px;
   width: 80px;
@@ -220,25 +242,25 @@
   align-items: center;
 }
 
-.iconAndImage img {
+.mobile-followers-iconAndImage-privacy img {
   height: 100%;
   width: 80%;
   border-radius: 10px;
   object-fit: cover;
 }
 
-.paragrapgh-icon {
+.mobile-followers-paragrapgh-icon-privacy {
   font-size: 30px;
 }
 
 /* skills section */
 
-.skills-section {
+.mobile-followers-skills-section-privacy {
   height: 200px;
   position: relative;
 }
 
-.skill-list {
+.mobile-followers-skill-list-privacy {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -247,14 +269,14 @@
   gap: 20px;
 }
 
-.skill-list .skillsMiniDiv {
+.mobile-followers-skill-list-privacy .mobile-followers-skillsMiniDiv-privacy {
   background-color: #f3efef;
   border-radius: 5px;
   padding: 5px 10px;
 }
 
 /* Privacy Section */
-.privacy-section {
+.mobile-followers-privacy-section-privacy {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -268,27 +290,27 @@
   justify-content: center;
 }
 
-.lock-icon {
+.mobile-followers-lock-icon-privacy {
   font-size: 24px;
   padding: 7px 10px;
   border: 3px solid black;
   border-radius: 50%;
 }
-.lock-icon .lock {
+.mobile-followers-lock-icon-privacy .mobile-followers-lock-privacy {
   font-size: 40px;
 }
 
-.privacy-text {
+.mobile-followers-privacy-text-privacy {
   font-weight: bold;
 }
 
-.connect-text {
+.mobile-followers-connect-text-privacy {
   color: gray;
   font-size: 20px;
 }
 
 /* Bottom Navigation */
-.bottom-nav {
+.mobile-followers-bottom-nav-privacy {
   display: flex;
   justify-content: space-around;
   padding: 10px;
@@ -299,7 +321,7 @@
   border-top-right-radius: 8px;
 }
 
-.nav-icon {
+.mobile-followers-nav-icon-privacy {
   font-size: 30px;
   cursor: pointer;
 }
